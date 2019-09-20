@@ -1,0 +1,97 @@
+[
+{
+  "model": "OnlineMarket.product",
+  "pk": 1,
+  "fields": {
+    "name": "Shaurma",
+    "description": "* Thin pita bread\r\n* Tomatoes\r\n* Cucumbers \r\n* Cabbige\r\n* Ketchup\r\n* Mayonnaise\r\n* Beef(might be other meal)\r\n* Vegetable oil",
+    "category": "food",
+    "amount": 5,
+    "price": "120.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 2,
+  "fields": {
+    "name": "Legenda",
+    "description": "\u201cTien Shan Legend\u201d in a 19-liter bottle is designed for daily unlimited and safe consumption. Dispenser water in homes and offices is not only comfortable, but also useful . Spring water \u201cTien Shan Legend\u201d in 19 liters bottles has a number of advantages over ordinary tap water, including allowing you to keep your health.",
+    "category": "drink",
+    "amount": 50,
+    "price": "30.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 3,
+  "fields": {
+    "name": "T-shirt Jack & Jones",
+    "description": "Structure: Cotton - 100%\r\nProduct Size on Model: M INT\r\nModel Parameters:  102-82-102\r\nVendor code: JA391EMFKGI4",
+    "category": "cloth",
+    "amount": 23,
+    "price": "1311.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 4,
+  "fields": {
+    "name": "AirPods",
+    "description": "The new AirPods 2 in a case with a possibility of wireless charging will completely change your idea of using wireless headphones. Take them out of the case - and they are ready to work with iPhone, Apple Watch, iPad or Mac.",
+    "category": "electronics",
+    "amount": 12,
+    "price": "12596.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 5,
+  "fields": {
+    "name": "Bike Forward Bizon Mini 24",
+    "description": "Frame: 6061 Aluminum\r\nFork: Spring Elastomeric\r\nFork Travel: 50\r\nRear Derailleur: Shimano Tourney RD-TY300\r\nRim: Double\r\nBrakes: Disc mechanical\r\nSpeeds: 7 (1 * 7)\r\nWeight: 15 kg.\r\nWheel diameter: 24 inches",
+    "category": "other",
+    "amount": 3,
+    "price": "24310.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 6,
+  "fields": {
+    "name": "NoteBook",
+    "description": "",
+    "category": "other",
+    "amount": 9,
+    "price": "120.00"
+  }
+},
+{
+  "model": "OnlineMarket.product",
+  "pk": 7,
+  "fields": {
+    "name": "Laptop Backpack",
+    "description": "High quality backpacks for everyone.",
+    "category": "other",
+    "amount": 6,
+    "price": "1700.00"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$NTwNYOyAaTNh$cSuI4WJRuXRW9/mHT5sGR1CSXnxSofCWTqk4BXbFRn0=",
+    "last_login": "2019-09-20T06:35:26.781Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-09-20T06:35:22.331Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
