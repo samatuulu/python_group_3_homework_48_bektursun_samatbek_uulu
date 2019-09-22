@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} Product Detail {% endblock %}
+
+{% block content %}<br/>
+
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Name: {{ product.name }}</h5>
+            <p class="card-text">Description: {{ product.description }}</p>
+            <p class="card-text"><small class="text-muted">Category: {{ product.get_category_display }}</small></p>
+            <p class="card-text"><small class="text-muted">Price: {{ product.price }} сом</small></p>
+            <p class="card-text"><small class="text-muted">Amount: {{ product.amount }} left</small></p>
+        </div>
+    </div>
+
+{% endblock %}
