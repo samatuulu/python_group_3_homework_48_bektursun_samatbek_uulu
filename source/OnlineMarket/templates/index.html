@@ -1,18 +1,23 @@
 {% extends 'base.html' %}
 {% block title %}Online Market{% endblock %}
 {% block menu %}
-    <a href="{% url 'index' %}">Add item</a>
+    <a href="{% url 'product_create' %}">Add item</a>
 {% endblock %}
 {% block content %}
 <h1>Welcome to Online Market</h1><br/>
 {% for product in products %}
         <div class="card">
             <div class="card-body">
+
                 <a href="{% url 'product_detail' product.pk %}">{{ product.name }}</a>
                 <p class="card-text">Category: {{ product.get_category_display }}</p>
                 <p class="btn btn-primary">Price: {{ product.price }} som</p>
+                <p><a href="{% url 'product_update' product.pk %}" class="btn btn-primary">Update item</a>
+                <a href="{% url 'product_delete' product.pk %}" class="btn btn-danger">Delete item</a></p>
+
             </div>
         </div>
         <br/>
 {% endfor %}
+
 {% endblock %}

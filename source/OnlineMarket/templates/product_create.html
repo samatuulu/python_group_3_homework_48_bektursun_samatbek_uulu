@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Add product{% endblock %}
+
+
+{% block content %}
+    <div class="container">
+
+        <h1>Add product</h1>
+        <form method="post" action="{% url 'product_create' %}">
+
+            {% csrf_token %}
+
+            {% include 'partial/product_form.html' %}
+            <button type="submit"  class="btn btn-secondary" value="Submit">Submit</button>
+            <a href="{% url 'index' %}" class="btn btn-outline-info">Cancel</a>
+
+        </form>
+
+    </div>
+{% endblock %}
